@@ -10,4 +10,15 @@ int main() {
     printf("*******************************************\n");
 
 
+    int numeroSecreto = 42; // Número secreto para adivinhação
+    int chute;
+
+    printf("Qual e o seu chute? ");
+    scanf("%d", &chute);
+    printf("Seu chute foi %d\n", chute);
+
+
+    printf("%d,\n%d\n", numeroSecreto, chute);
+
+
 }
